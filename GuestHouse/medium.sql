@@ -13,7 +13,7 @@ ON b.occupants = r.occupancy AND
    b.room_type_requested = r.room_type
 WHERE first_name = 'Ruth' AND
       last_name  = 'Cadbury';
-	  
+      
 /*
 +--------------------+
 | SUM(nights*amount) |

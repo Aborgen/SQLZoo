@@ -86,7 +86,7 @@ JOIN Customer AS c
 ON soh.CustomerID = c.CustomerID
 WHERE c.CompanyName = 'Riding Cycles' AND
       p.Name ='Racing Socks, L';
-	  
+      
 /*
 +--------------+
 | SocksOrdered |

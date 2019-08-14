@@ -87,7 +87,7 @@ NOT EXISTS (
   (
     b_inner.booking_date >= DATE_ADD(b_outer.booking_date, INTERVAL b_outer.nights DAY) AND
     b_inner.booking_date < DATE_ADD(b_outer.booking_date, INTERVAL b_outer.nights + 3 DAY) -- We need to check up to three days in the future
-	                                                                                       -- for potential bookings.
+                                                                                           -- for potential bookings.
   )
 )
 ORDER BY checking_out

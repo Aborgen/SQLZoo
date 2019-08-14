@@ -71,13 +71,13 @@ FROM (
   FROM legal_vehicles
   WHERE chargeType = 'Monthly' AND
         beginningDate BETWEEN '2007-01-01 00:00:00' AND
-		                      '2007-02-01 00:00:00'
+                              '2007-02-01 00:00:00'
   UNION ALL
   SELECT vehicleId
   FROM legal_vehicles
   WHERE chargeType = 'Annual' AND
         beginningDate BETWEEN '2006-02-01 00:00:00' AND
-		                      '2007-02-01 00:00:00') AS active_permits
+                              '2007-02-01 00:00:00') AS active_permits
 GROUP BY vehicleId;
 
 /*
@@ -106,7 +106,7 @@ ON v.keeper = k.id
 WHERE c.id = 10 AND
       i.whn BETWEEN '2007-02-25 00:00:00' AND
                     '2007-02-25 23:59:59';
-					
+                    
 /*
 +---------------------+-----------+-------------------+
 |         time        |  vehicle  |       owner       |
