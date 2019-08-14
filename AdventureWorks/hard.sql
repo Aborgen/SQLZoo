@@ -102,6 +102,14 @@ GROUP BY p.ProductID, Name
 ORDER BY NumberSold DESC
 LIMIT 1;
 
+/*
++-----------------+------------+
+|       Name      | NumberSold |
++-----------------+------------+
+| Classic Vest, S |         83 |
++-----------------+------------+
+*/
+
 -- 14)
 -- Show how many orders are in the following ranges (in $): 
 -- 0-99, 100-999, 1000-9999, 10000-inf
