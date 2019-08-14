@@ -84,6 +84,14 @@ JOIN (
 ON performances.compositionId = compositions.id
 WHERE compositions.composer = 'Andy Jones';
 
+/*
++------------+--------------+----------------+
+|    date    |     venue    |   composition  |
++------------+--------------+----------------+
+| 1997-06-15 | Metropolitan | A Simple Piece |
++------------+--------------+----------------+
+*/
+
 -- 5)
 -- list the different instruments played by the musicians and
 -- avg number of musicians who play the instrument.
