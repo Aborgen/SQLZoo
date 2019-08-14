@@ -163,6 +163,14 @@ WHERE (
   dailyDate < DATE_ADD(beginningDate, INTERVAL 1 Year)
 ) AND chargeType = 'Annual';
 
+/*
++-----------------------+
+| vehicleId | dailyDate |
++-----------------------+
+|           |           |
++-----------------------+
+*/
+
 -- 6)
 -- Issuing fines: Vehicles using the zone during the charge period, on charging days must be issued with
 -- fine notices unless they have a permit covering that day. List the name and address of such culprits,
