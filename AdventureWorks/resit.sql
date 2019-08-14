@@ -59,8 +59,7 @@ ON c.CustomerId = ca.CustomerId
 JOIN Address AS a
 ON ca.AddressID = a.AddressId
 WHERE UPPER(CompanyName) LIKE '%CYCLE%'
-ORDER BY CompanyName
-LIMIT 10;
+ORDER BY CompanyName;
 
 /*
 +--------------------------+-----------------------------+----------------+---------------+
