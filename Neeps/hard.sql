@@ -50,8 +50,3 @@ WHERE conflict_event IS NOT NULL;
 
 -- 12)
 -- Produce a table showing the utilisation rate and the occupancy level for all rooms with a capacity more than 60.
-               (Hours spent in class in room) divided by (total number of available hours)
-Utilization: 
-
-               (Butts in seats)  divided by  (total amount of seats across classes
-Occupancy: SUM("Studnets in attends") / (capacity * COUNT("Events using room")
